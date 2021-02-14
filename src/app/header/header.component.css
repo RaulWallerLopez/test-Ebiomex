@@ -12,19 +12,8 @@
 {
   font-size: 1.2rem;
   color: white;
-  margin-left: 4%;
 
-}
-.myNav a:hover
-{
-
-  border-bottom: 2px solid #006eff;
 }
 .bg{
 	transition: all 1s ease;
-}
-.active
-{
-  color: #006eff;
-  border-bottom: 2px solid #006eff;
 }
