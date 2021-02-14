@@ -19,11 +19,17 @@ export class HeaderComponent implements OnInit {
             $('.logo').css('filter','invert(0%)');
             $('.nav-item a').addClass('text-dark');
             $('.nav-item a').removeClass('text-light');
+            $('.navbar-toggler').addClass('bg-dark');
+            $('.icon').addClass('text-dark');
+            $('.icon').removeClass('text-light');
         } else {
             $("#menu").removeClass("bg-white");
             $('.logo').css('filter','invert(100%)');
             $('.nav-item a').addClass('text-light');
             $('.nav-item a').removeClass('text-dark');
+            $('.navbar-toggler').removeClass('bg-dark');
+            $('.icon').addClass('text-light');
+            $('.icon').removeClass('text-dark');
         }
       });
       //disparo de animaciones
