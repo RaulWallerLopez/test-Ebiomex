@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  height: 100%;
+  font-family:kometa;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+@font-face{
+  font-family: kometa;
+  src: url(../src/assets/font/Kometa-Light.ttf);
+}
+@font-face
+{
+  font-family: kometaH;
+  src: url(../src/assets/font/Kometa-Heavy.ttf);
+}

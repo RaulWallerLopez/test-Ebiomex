@@ -1,0 +1,225 @@
+.inicio
+{
+ width: 100%;
+}
+#Contacto
+{
+  background-color: #7a7a7a;
+}
+.contentW
+{
+  color: white;
+  text-align: center;
+  padding-top: 13%;
+  font-weight: bold;
+}
+.unica
+{
+  font-size: 2rem;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 2px solid white;
+}
+.tel
+{
+  margin-top: 4%;
+  margin-right: 2%;
+  font-size: 1.1rem;
+  width: 15rem;
+  padding: 1%;
+  border: 2px solid white;
+  border-radius: 9px;
+  display: inline-block;
+}
+.mail
+{
+  margin-top: 4%;
+  font-size: 1.1rem;
+  width: 16rem;
+  padding: 1%;
+  border: 2px solid white;
+  border-radius: 9px;
+  display: inline-block;
+}
+.tel i
+{
+  padding-left: 1%;
+}
+.mail i
+{
+  padding-left: 5%;
+}
+.form
+{
+  color: white;
+  padding-top: 8%;
+  width: 40%;
+  margin-left:30% ;
+  padding-bottom: 10%;
+}
+.textarea
+{
+  width: 100%;
+  height: 16rem;
+}
+.nosotros img
+{
+  margin-top: 10%;
+
+
+  width: 100%;
+}
+.mv
+{
+  margin-top: 10%;
+}
+.title
+{
+  font-weight: bold;
+  padding-left: 10%;
+  color: #6e6e6e;
+  font-size: 1.7rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.title:hover
+{
+  color: #000;
+}
+.text
+{
+  color: #6e6e6e;
+  font-size: 1.3rem;
+  text-align: justify;
+  text-justify:inter-word;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.content
+{
+  color: black;
+  text-align: center;
+  padding-top: 13%;
+}
+.content span
+{
+  font-weight: bold;
+  color: #6e6e6e;
+  font-size: 2rem;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 2px solid #6e6e6e;
+}
+.content span:hover
+{
+  color: #000000;
+}
+.contentCard
+{
+  margin: auto;
+  padding-top: 5%;
+  width: 80%;
+
+}
+.card
+{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+#Mantenimiento
+{
+  background: #e189c4;
+  background: -moz-linear-gradient(left, #e189c4 0%, #5dcdef 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #e189c4), color-stop(100%, #5dcdef));
+  background: -webkit-linear-gradient(left, #e189c4 0%, #5dcdef 100%);
+  background: -o-linear-gradient(left, #e189c4 0%, #5dcdef 100%);
+  background: -ms-linear-gradient(left, #e189c4 0%, #5dcdef 100%);
+  background: linear-gradient(to right, #e189c4 0%, #5dcdef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e189c4', endColorstr='#5dcdef', GradientType=1 );
+}
+.mantenimiento
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.mantText
+{
+  text-align: justify;
+  text-justify:inter-word;
+  font-size: .9rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.mantCar
+{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+#Nosotros
+{
+  border-bottom: 3px double #6e6e6e;
+  padding-bottom: 5%;
+}
+.cardIns
+{
+  animation-duration: 2s;
+}
+.cardEqu
+{
+  animation-duration: 2s;
+}
+.card-deck
+{
+  padding-bottom: 5%;
+}
+#Inicio
+{
+  background-image: url(../../assets/img/team.jpg);
+  height: 55rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.filtro
+{
+  height: 55rem;
+  background: rgba(225,137,196,0.41);
+background: -moz-linear-gradient(left, rgba(225,137,196,0.41) 0%, rgba(154,174,219,0.58) 54%, rgba(93,205,239,0.41) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(225,137,196,0.41)), color-stop(54%, rgba(154,174,219,0.58)), color-stop(100%, rgba(93,205,239,0.41)));
+background: -webkit-linear-gradient(left, rgba(225,137,196,0.41) 0%, rgba(154,174,219,0.58) 54%, rgba(93,205,239,0.41) 100%);
+background: -o-linear-gradient(left, rgba(225,137,196,0.41) 0%, rgba(154,174,219,0.58) 54%, rgba(93,205,239,0.41) 100%);
+background: -ms-linear-gradient(left, rgba(225,137,196,0.41) 0%, rgba(154,174,219,0.58) 54%, rgba(93,205,239,0.41) 100%);
+background: linear-gradient(to right, rgba(225,137,196,0.41) 0%, rgba(154,174,219,0.58) 54%, rgba(93,205,239,0.41) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e189c4', endColorstr='#5dcdef', GradientType=1 );
+}
+.slogan
+{
+  position: absolute;
+  right: 0%;
+
+  font-weight: bold;
+  line-height: 50px;
+  text-align: right;
+  padding-top: 25%;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-right: 5%;
+  animation-duration: 2s;
+}
+@media only screen and (max-width: 1000px) {
+  .slogan{
+    padding-top: 80%;
+    line-height: 25px;
+    font-size: 1.5rem;
+  }
+  #Inicio
+  {
+    height: 50rem;
+  }
+  .filtro
+  {
+    height: 50rem;
+  }
+}
