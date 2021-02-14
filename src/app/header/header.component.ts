@@ -17,11 +17,13 @@ export class HeaderComponent implements OnInit {
         if ($("#menu").offset().top > 56) {
             $("#menu").addClass("bg-white");
             $('.logo').css('filter','invert(0%)');
-            $('.myNav a').css('color','black');
+            $('.nav-item a').addClass('text-dark');
+            $('.nav-item a').removeClass('text-light');
         } else {
             $("#menu").removeClass("bg-white");
             $('.logo').css('filter','invert(100%)');
-            $('.myNav a').css('color','white');
+            $('.nav-item a').addClass('text-light');
+            $('.nav-item a').removeClass('text-dark');
         }
       });
       //disparo de animaciones
