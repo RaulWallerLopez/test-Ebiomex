@@ -34,8 +34,9 @@ export class HeaderComponent implements OnInit {
       });
       //disparo de animaciones
       $(window).scroll(function() {
-        if ($("#menu").offset().top > 1150) {
-            $(".cardEqu").addClass("animate__animated animate__zoomIn");
+        if ($("#menu").offset().top > 800) {
+            $(".cardInf").addClass("animate__flipInY");
+
         }
         else
         {

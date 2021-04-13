@@ -17,3 +17,7 @@
 .bg{
 	transition: all 1s ease;
 }
+.nav-link
+{
+  font-size: 1.5rem;
+}
