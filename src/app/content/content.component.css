@@ -102,6 +102,13 @@
   animation-duration: 1.5s;
 
 }
+.nosotros
+{
+  position: relative;
+  padding-top: 20%;
+  left: -16%;
+  color: #ffffff;
+}
 @media only screen and (max-width: 1000px) {
   .slogan{
     padding-top: 120%;
@@ -119,5 +126,13 @@
   .filtroS
   {
     height: 60rem;
+  }
+  .nosotros
+  {
+    left: -56%;
+  }
+  .cardInf
+  {
+    left: -80%;
   }
 }
