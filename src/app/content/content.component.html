@@ -8,19 +8,19 @@
  <div id="Nosotros" class="p-0 container-fluid d-flex justify-content-center">
     <div class="imgParallax "></div>
     <div class="filtroAz">
-      <h1 class=" title nosotros">NOSOTROS</h1>
-      <div class="card text-center animate__animated  d-xl-inline-block cardInf shadow ">
+      <h1 id="nosT" class=" title nosotros d-none">NOSOTROS</h1>
+      <div id="mision" class="card text-center animate__animated d-none cardInf shadow ">
         <div class="card-body">
-          <h3 class="card-title">MISION</h3>
+          <h3 class="card-title">MISIÓN</h3>
           <p class="card-text">Nuestra misión es garantizar a los usuarios, el funcionamiento permanente y
             seguro de las instalaciones y equipamiento existente; bajo criterios enfocados en la mejora
             continua de la calidad, otorgando un servicio de excelencia.</p>
             <i class="fas fa-hand-holding-medical" style="font-size: 3rem;"></i>
         </div>
       </div>
-      <div class="card text-center animate__animated d-xl-inline-block cardInf shadow">
+      <div id="vision" class="card text-center animate__animated d-none cardInf shadow">
         <div class="card-body">
-          <h3 class="card-title">VISION</h3>
+          <h3 class="card-title">VISIÓN</h3>
           <p class="card-text">Ser una empresa líder en el sector hospitalario que ofrece obtener diagnósticos de
             mantenimiento, innovación e implementar planes para la conservación y constante mejora
             de equipos, mobiliarios, instalaciones y sistemas médicos.</p>
@@ -31,9 +31,9 @@
   </div>
 
   <div  class=" filtroS container-fluid p-0 m-0">
-    <h1 class=" title d-flex justify-content-center" style="padding-top: 5%; " >SERVICIOS</h1>
+    <h1 id="servT" class=" title  justify-content-center animate__animated d-none" style="padding-top: 5%; " >SERVICIOS</h1>
     <div class="row p-0 m-0">
-      <div class="col-xl-3 col-sm-12 m-1" >
+      <div id="allServ" class="col-xl-3 col-sm-12 m-1 animate__animated d-none" >
         <h5>Servicio correctivo/preventivo a equipos de imagenología:</h5> Tomógrafos, equipos de rayos x,
           fluoroscopios, ortopantomógrafos, mastógrafos, densitómetros y centros de digitalización.<br><br>
           <h5>Servicio correctivo/preventivo a equipos de monitoreo:</h5> Ultrasonidos, monitores de signos
@@ -46,7 +46,7 @@
           lavadoras.
       </div>
       <div class="col-xl-8 col-sm-12 m-auto">
-        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div id="carousel" class="carousel slide d-none" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
             <li data-target="#carousel" data-slide-to="1"></li>
@@ -75,14 +75,14 @@
       </div>
     </div>
   </div>
-   <div id="Distribuidores" class=" ">
+   <div id="Distribuidores">
     <div class="content">
-      <h1 class="title">DISTRIBUIDORES</h1>
-        <div class="pt-4" style="padding-bottom: 20%;">
-          <a href=""><img class="drug" src="assets/img/drug.png"></a>
+      <h1 id="disT" class="title animate__animated d-none">DISTRIBUIDORES</h1>
+        <div class="pt-4" >
+          <a href=""><img class="drug d-none" src="assets/img/drug.png"></a>
 
-          <a href=""><img class="desy p-3" src="assets/img/desy.png"></a>
-          <a href=""><img class="drug" src="assets/img/drug.png"></a>
+          <a href=""><img class="desy p-3 d-none" src="assets/img/desy.png"></a>
+          <a href=""><img class="drug d-none" src="assets/img/drug.png"></a>
         </div>
     </div>
   </div>

@@ -34,22 +34,44 @@ export class HeaderComponent implements OnInit {
       });
       //disparo de animaciones
       $(window).scroll(function() {
-        if ($("#menu").offset().top > 800) {
+        if ($("#menu").offset().top > 650) {
+            $("#mision").removeClass("d-none");
+            $("#mision").addClass("d-xl-inline-block");
+            $("#vision").removeClass("d-none");
+            $("#vision").addClass("d-xl-inline-block");
             $(".cardInf").addClass("animate__flipInY");
-
+            $("#nosT").removeClass("d-none");
+            $("#nosT").addClass("animate__fadeInDown");
         }
         else
         {
-          $(".cardEqu").removeClass("animate__animated animate__zoomIn");
+
         }
       });
       $(window).scroll(function() {
-        if ($("#menu").offset().top > 2450) {
-            $(".cardIns").addClass("animate__animated animate__zoomIn");
+        if ($("#menu").offset().top > 1100) {
+          $("#allServ").addClass("animate__backInLeft");
+          $("#allServ").removeClass("d-none");
+          $("#carousel").removeClass("d-none");
+          $("#servT").removeClass("d-none");
+          $("#servT").addClass("d-flex");
+          $("#servT").addClass("animate__fadeInDown");
         }
         else
         {
-          $(".cardIns").removeClass("animate__animated animate__zoomIn");
+
+        }
+      });
+      $(window).scroll(function() {
+        if ($("#menu").offset().top > 2000) {
+          $("#disT").removeClass("d-none");
+          $("#disT").addClass("animate__fadeInDown");
+          $(".drug").removeClass("d-none");
+          $(".desy").removeClass("d-none");
+        }
+        else
+        {
+
         }
       });
     })

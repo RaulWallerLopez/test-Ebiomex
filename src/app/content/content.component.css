@@ -3,8 +3,8 @@
   font-family:poppins-semibold,poppins,sans-serif;
   font-weight: bold;
   font-size: 3rem;
-  animation: fadeInDown;
-  animation-duration: 2.5s;
+
+  animation-duration: 1s;
 }
 .content
 {
@@ -71,7 +71,7 @@
   width: 5rem;
   filter: opacity(50%);
   animation: fadeIn;
-  animation-duration: 6s;
+  animation-duration: 7s;
 }
 .imgParallax
 {
